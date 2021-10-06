@@ -8,7 +8,7 @@ window.onload = function () {
     
 
     palabra.addEventListener("keyup", function (e) {
-        if (e.keyCode === 13) {  //si se pulsa enter se ejecuta la funcion que recoge la palabra a adivinar
+        if (e.keyCode == 13) {  //si se pulsa enter se ejecuta la funcion que recoge la palabra a adivinar
             guiones();
         }
     });
